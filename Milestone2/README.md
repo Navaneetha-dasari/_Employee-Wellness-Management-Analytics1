@@ -83,7 +83,7 @@ Final Preprocessed Text
 
 ## Sample Input
 
-I am feeling very happy today! 😊 Visit https://example.com
+I am feeling very happy today! 😊 
 
 ### Sample Output
 
