@@ -1,101 +1,77 @@
-Employee Wellness Management Analytics
+# Employee Wellness Management Analytics
 
-MoodMentor
+## MoodMentor
 
-MoodMentor is an AI-powered Employee Wellness Management Analyticsapplication designed to help employees monitor their emotionalwell-being and receive personalized wellness support. It also providesmanagers with useful employee and team wellness insights.
+MoodMentor is an AI-powered **Employee Wellness Management Analytics** application designed to help employees monitor their emotional well-being and receive personalized wellness support. It also provides managers with useful employee and team wellness insights.
 
-Features
+## Features
 
-Employee Features
+### Employee Features
 
-Secure user registration and login
+- **Secure User Registration and Login**
+- **Text Emotion and Sentiment Analysis**
+- **Facial Emotion Recognition**
+- **Mood Check-In**
+- **Mood Journal and Calendar**
+- **AI Wellness Chat**
+- **Personalized Wellness Recommendations**
+- **Mood History and Trends**
 
-Text emotion and sentiment analysis
+### Manager Features
 
-Facial emotion recognition
+- **Employee Wellness Overview**
+- **Employee Mood Information**
+- **Team Mood Trends**
+- **Emotion and Sentiment Analytics**
+- **Search and Filtering**
+- **Wellness Insights**
+- **PDF Report Generation**
+- **CSV Export**
 
-Mood check-in
+## Technology Stack
 
-Mood journal and calendar
+### Frontend
 
-AI wellness chat
+- **Streamlit**
 
-Personalized wellness recommendations
+### Backend
 
-Mood history and trends
+- **Python**
+- **FastAPI**
+- **REST APIs**
 
-Manager Features
+### AI / ML
 
-Employee wellness overview
+- **BERT**
+- **VADER**
+- **Qwen 2.5 LLM**
+- **DeepFace**
+- **OpenCV**
 
-Employee mood information
+### Multilingual Processing
 
-Team mood trends
+- **Language Detection**
+- **Translation**
 
-Emotion and sentiment analytics
+### Database
 
-Search and filtering
+- **PostgreSQL**
+- **SQLAlchemy**
 
-Wellness insights
+### Authentication & Security
 
-PDF report generation
+- **JWT**
+- **bcrypt**
 
-CSV export
+### Data & Visualization
 
-Technology Stack
+- **Pandas**
+- **NumPy**
+- **Plotly**
 
-Frontend
+## System Workflow
 
-Streamlit
-
-Backend
-
-Python
-
-FastAPI
-
-REST APIs
-
-AI / ML
-
-BERT
-
-VADER
-
-Qwen 2.5 LLM
-
-DeepFace
-
-OpenCV
-
-Multilingual Processing
-
-Language detection
-
-Translation
-
-Database
-
-PostgreSQL
-
-SQLAlchemy
-
-Authentication & Security
-
-JWT
-
-bcrypt
-
-Data & Visualization
-
-Pandas
-
-NumPy
-
-Plotly
-
-System Workflow
-
+```text
 User Input
      ↓
 Language Detection / Translation
@@ -109,105 +85,75 @@ Recommendation
 Database
      ↓
 Dashboard / Report
+```
 
-Facial emotion recognition is handled separately using DeepFace andOpenCV.
+## Backend
 
-Backend
-
-The backend provides the API layer between the frontend and theapplication's processing and database components.
+The backend provides the **API layer** between the frontend and the application's processing and database components.
 
 It handles:
 
-User authentication
+- **User Authentication**
+- **API Requests**
+- **Data Validation**
+- **ML/NLP Processing Integration**
+- **Recommendation Integration**
+- **Database Operations**
+- **User History and Analytics Retrieval**
 
-API requests
+## Database
 
-Data validation
+**PostgreSQL** is used to store application data such as **user information, emotion analysis results, recommendations, and historical wellness data**.
 
-ML/NLP processing integration
+**SQLAlchemy** is used for database interaction.
 
-Recommendation integration
-
-Database operations
-
-Retrieving user history and analytics
-
-Database
-
-PostgreSQL is used to store application data such as user information,emotion analysis results, recommendations, and historical wellness data.
-
-SQLAlchemy is used for database interaction.
-
-Dashboard & Analytics
+## Dashboard & Analytics
 
 The dashboard provides:
 
-Mood trends over time
+- **Mood Trends Over Time**
+- **Emotion Distribution**
+- **Emotional Pattern Analysis**
+- **Wellness Insights**
+- **Search and Filtering**
+- **Historical Data**
+- **PDF Reports**
+- **CSV Exports**
 
-Emotion distribution
+The dashboard is designed to use data retrieved through the **backend and database**.
 
-Emotional pattern analysis
+## Testing
 
-Wellness insights
+The application is tested across different types of inputs and workflows, including:
 
-Search and filtering
+- **Valid Inputs**
+- **Invalid Inputs**
+- **Empty Inputs**
+- **Multilingual Inputs**
+- **Edge-Case Inputs**
+- **Direct Text Input**
+- **File-Based Input**
+- **User Registration**
+- **Login and Authentication**
+- **API Endpoints**
+- **Error Handling**
+- **Database Operations**
+- **End-to-End Application Workflow**
 
-Historical data
-
-PDF reports
-
-CSV exports
-
-The dashboard is designed to use data retrieved through the backend anddatabase.
-
-Testing
-
-The application is tested across different types of inputs andworkflows, including:
-
-Valid inputs
-
-Invalid inputs
-
-Empty inputs
-
-Multilingual inputs
-
-Edge-case inputs
-
-Direct text input
-
-File-based input
-
-User registration
-
-Login and authentication
-
-API endpoints
-
-Error handling
-
-Database operations
-
-End-to-end application workflow
-
-Security
+## Security
 
 Sensitive information must not be committed to the repository.
 
 Do not upload:
 
-Passwords
+- **Passwords**
+- **API Keys**
+- **Database Credentials**
+- **JWT Secrets**
+- **`.env` Files Containing Real Credentials**
 
-API keys
+Use **environment variables** for sensitive configuration.
 
-Database credentials
+## Final Application
 
-JWT secrets
-
-.env files containing real credentials
-
-Use environment variables for sensitive configuration.
-
-Final Application
-
-The final application integrates the frontend, backend, AI/MLcomponents, recommendation system, database, dashboard, authentication,and reporting features into a complete employee wellness managementplatform.
+The final application integrates the **frontend, backend, AI/ML components, recommendation system, database, dashboard, authentication, and reporting features** into a complete **Employee Wellness Management Analytics** platform.
