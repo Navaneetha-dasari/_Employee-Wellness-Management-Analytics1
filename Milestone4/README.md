@@ -2,7 +2,7 @@
 
 ## MoodMentor
 
-MoodMentor is an AI-powered **Employee Wellness Management Analytics** application designed to help employees monitor their emotional well-being and receive personalized wellness support. It also provides managers with useful employee and team wellness insights. 
+MoodMentor is an AI-powered **Employee Wellness Management Analytics** application designed to help employees monitor their emotional well-being and receive personalized wellness support. It also provides managers with useful employee and team wellness insights.  
 
 ## Features
 
